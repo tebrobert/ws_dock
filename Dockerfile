@@ -6,3 +6,4 @@ RUN pip install asyncio websockets
 COPY server.py ./
 
 CMD [ "python", "./server.py" ]
+EXPOSE 4000
