@@ -27,7 +27,7 @@ async def processConnection(websocket):
 
 
 async def main():
-    async with serve(processConnection, "localhost", 4000) as server:
+    async with serve(processConnection, "0.0.0.0", 8080) as server:
         await server.serve_forever()
 
 
