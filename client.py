@@ -2,7 +2,7 @@
 
 """Client using the asyncio API."""
 
-MY_URI = "ws://localhost:4000"
+MY_URI = "ws://0.0.0.0:8080"
 #MY_URI = "ws://...:..."
 
 import asyncio
